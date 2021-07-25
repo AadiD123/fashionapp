@@ -4,9 +4,9 @@ export default function Datadisplay() {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <Image style={styles.size} source={require("../assets/slide1.jpg")} />
-        <Image style={styles.size} source={require("../assets/slide2.jpg")} />
-        <Image style={styles.size} source={require("../assets/slide3.jpg")} />
+        <Image style={styles.size} source={require("../assets/shirt.jpg")} />
+        <Image style={styles.size} source={require("../assets/jacket.jpg")} />
+        <Image style={styles.size} source={require("../assets/boots.jpg")} />
       </View>
     </SafeAreaView>
   );
